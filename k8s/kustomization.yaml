@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: kouril1-ns
+
+resources:
+  - deployment.yaml
+
+images:
+  - name: cerit.io/kouril1/deploy-test
+    newTag: latest
