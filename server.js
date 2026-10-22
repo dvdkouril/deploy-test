@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     return;
   }
   res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
-  res.end(`<p><strong>hi there.</strong><br />version: ${version}</p>\n`);
+  res.end(`<p><strong>hi there.</strong><br />version: ${version}<br />date: <em>${new Date().toDateString()}</em></p>\n`);
 });
 
 server.listen(port, () => console.log(`listening on :${port} (version ${version})`));
