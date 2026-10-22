@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  IMAGE_NAME: cerit.io/kouril1/deploy-test
+  IMAGE_NAME: cerit.io/dvdkouril/deploy-test
 
 jobs:
   deploy:

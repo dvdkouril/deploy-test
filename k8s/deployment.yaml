@@ -20,7 +20,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: app
-          image: cerit.io/kouril1/deploy-test
+          image: cerit.io/dvdkouril/deploy-test
           ports:
             - containerPort: 8080
           securityContext:

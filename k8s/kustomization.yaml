@@ -7,5 +7,5 @@ resources:
   - deployment.yaml
 
 images:
-  - name: cerit.io/kouril1/deploy-test
+  - name: cerit.io/dvdkouril/deploy-test
     newTag: latest
